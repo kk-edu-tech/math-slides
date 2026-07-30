@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Slides | 授業タイトル</title>
+<link rel="stylesheet" href="framework/css/math-slides.css">
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"]],processEscapes:true,packages:{"[+]": ["ams"]}},chtml:{scale:1.04,matchFontHeight:false}};</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<div class="ms-deck">
+
+<section class="ms-slide active">
+<header class="ms-header"><span>中学◯年数学｜単元名</span><span>導入</span></header>
+<main class="ms-main ms-center"><span class="ms-badge">数学の友◯年 p.00</span><div class="ms-title">具体的な事象から始める問い</div><p class="ms-sub">必要最小限の状況説明。</p></main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+<section class="ms-slide">
+<header class="ms-header"><span>中学◯年数学</span><span>めあて</span></header>
+<main class="ms-main"><div class="ms-card ms-goal"><div class="ms-card__label">今日のめあて</div><div class="ms-card__content">生徒が理解しやすい言葉で書く。</div></div></main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+<section class="ms-slide">
+<header class="ms-header"><span>中学◯年数学</span><span>今日扱う問題</span></header>
+<main class="ms-main"><div class="ms-heading ms-center">今日扱う基本例題</div><div class="ms-grid-3">
+<div class="ms-card ms-problem"><div class="ms-card__label">基本例題1</div><div class="ms-card__content" style="font-size:clamp(18px,1.8vw,25px)">問題の要点</div></div>
+<div class="ms-card ms-problem"><div class="ms-card__label">基本例題2</div><div class="ms-card__content" style="font-size:clamp(18px,1.8vw,25px)">問題の要点</div></div>
+<div class="ms-card ms-problem"><div class="ms-card__label">基本例題3</div><div class="ms-card__content" style="font-size:clamp(18px,1.8vw,25px)">問題の要点</div></div>
+</div></main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+<section class="ms-slide">
+<header class="ms-header"><span>中学◯年数学</span><span>基本例題1</span></header>
+<main class="ms-main"><div class="ms-card ms-problem"><div class="ms-card__label">問題</div><div class="ms-card__content">基本例題の問題文。</div></div></main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+<section class="ms-slide">
+<header class="ms-header"><span>中学◯年数学</span><span>考え方</span></header>
+<main class="ms-main has-problem-strip">
+<div class="ms-problem-strip"><b>問題</b> 元の問題文を短く再掲する。</div>
+<div class="ms-heading">まず、表で考えよう。</div>
+<table class="ms-table"><tr><th>\(x\)</th><td>…</td><td class="ms-fragment">…</td></tr><tr><th>\(y\)</th><td>…</td><td class="ms-fragment">…</td></tr></table>
+<div class="ms-card ms-hint ms-fragment"><div class="ms-card__label">気づき</div><div class="ms-card__content">表や矢印で関係を見える化する。</div></div>
+</main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+<section class="ms-slide">
+<header class="ms-header"><span>中学◯年数学</span><span>変化の割合</span></header>
+<main class="ms-main ms-center has-problem-strip">
+<div class="ms-problem-strip"><b>問題</b> 元の問題文を短く再掲する。</div>
+<table class="ms-table ms-mini-table"><tr><th>\(x\)</th><th>1</th><th>4</th></tr><tr><th>\(y\)</th><td>8</td><td>17</td></tr></table>
+<div class="ms-flow ms-fragment"><div class="ms-flow-box">\(x\)：1 → 4<br>3ふえる</div><div class="ms-flow-arrow">→</div><div class="ms-flow-box">\(y\)：8 → 17<br>9ふえる</div></div>
+<div class="ms-card ms-hint ms-fragment"><div class="ms-card__label">考え方</div><div class="ms-card__content ms-center">\(x\) が3ふえると \(y\) は9ふえる。<br>だから、1ふえるごとなら <span class="ms-accent">9÷3=3</span>。</div></div>
+<div class="ms-card ms-answer ms-fragment"><div class="ms-card__label">数学の言葉</div><div class="ms-card__content">この変わり方を<span class="ms-accent">変化の割合</span>という。</div></div>
+</main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+<section class="ms-slide">
+<header class="ms-header"><span>中学◯年数学</span><span>まとめ</span></header>
+<main class="ms-main"><div class="ms-card ms-summary"><div class="ms-card__label">今日のまとめ</div><div class="ms-card__content"><div>① 生徒の言葉に近いまとめ</div><div class="ms-fragment">② 理解後に数学用語を示す</div><div class="ms-fragment">③ 不要な抽象化は載せない</div></div></div></main>
+<footer class="ms-footer"><span>Math Slides</span><span data-ms-page></span></footer>
+</section>
+
+</div>
+
+<div class="ms-toolbar"><button class="ms-btn" onclick="MathSlides.prev()">←</button><button class="ms-btn" onclick="MathSlides.fullscreen()">⛶</button><button class="ms-btn" onclick="MathSlides.next()">→</button></div>
+<script src="framework/js/math-slides.js"></script>
+</body></html>
